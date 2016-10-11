@@ -54,7 +54,7 @@ public class Game extends JPanel {
 		frame.setVisible(true);
 		
 		while(true) {
-//			Toolkit.getDefaultToolkit().sync();
+			Toolkit.getDefaultToolkit().sync();
 			game.move();
 			game.repaint();
 			try {
